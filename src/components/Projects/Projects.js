@@ -8,6 +8,12 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import TravelImg from "../../Assets/Projects/travel.png";
+import Crypto from "../../Assets/Projects/crypto.png";
+import Car from "../../Assets/Projects/car.png";
+import Uzum from "../../Assets/Projects/uzum.png";
+import Movie from "../../Assets/Projects/movie.png";
+import Construction from "../../Assets/Projects/construction.png";
 
 function Projects() {
   return (
@@ -23,68 +29,65 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Movie}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Movie"
+              description="A personal movie project to discover, search, and explore movies built with React.js, Material-UI, and API integration. Features include real-time search, movie details, ratings, and watchlist management to enhance your movie experience."
+              ghLink="https://github.com/KhasanTursunov/movie.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Uzum}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="E-commerce"
+              description="A modern e-commerce platform to browse, search, and purchase products built with React.js, Material-UI, and Firebase/Stripe. Features include real-time cart updates, secure checkout, product filtering, and user authentication for a seamless shopping experience."
+              ghLink="https://github.com/KhasanTursunov/react-7-3"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Car}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Car sale"
+              description="A modern car e-commerce platform to browse, compare, and purchase vehicles built with React.js, Material-UI, and Firebase/Stripe. Features include advanced search & filters, real-time price updates, secure checkout, and user authentication for a smooth car-buying experience."
+              ghLink="https://khasansproject6.netlify.app/"
+              // ghLink="https://github.com/KhasanTursunov/automir.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Construction}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Construction & Tools E-Commerce"
+              description="An advanced e-commerce platform for construction materials and power tools, built with React.js, Tailwind CSS, and Firebase/Stripe. Features include category-based filtering, secure checkout, user authentication, real-time stock updates, and delivery tracking for a seamless shopping experience."
+              ghLink="https://khasansproject9.netlify.app/"
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Crypto}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Crypto Invest"
+              description="A modern, secure, and fast cryptocurrency investment platform where users can buy, sell, and trade digital assets. Built with React.js, Tailwind CSS, and Firebase/Auth0 for authentication, ensuring a seamless and secure experience."
+              ghLink="https://khasantursunovproject2.netlify.app/"
+              // ghLink="https://github.com/KhasanTursunov/Crappo.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={TravelImg}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="TravelEase – Your Ultimate Travel Companion"
+              description="A modern travel booking platform that allows users to search, compare, and book flights, hotels, and rental cars with ease. Built with React.js, Tailwind CSS, and API integration, providing a smooth and user-friendly experience."
+              ghLink="https://khasantursunovproject5.netlify.app/"
+              // ghLink="https://github.com/KhasanTursunov/Expedia.git"
             />
           </Col>
         </Row>
